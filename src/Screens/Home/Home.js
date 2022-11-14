@@ -74,8 +74,10 @@ const Home = () => {
       {imageData !== null ? (
         <>
           <Image source={{uri: imageData}} style={{width: 200, height: 200}} />
+          
         </>
       ) : null}
+      {setImageDownload}
       <TouchableOpacity
         style={{
           flex: 1,
